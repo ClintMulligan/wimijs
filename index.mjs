@@ -42,7 +42,7 @@
  *        for use throughout project.
  *
  * @example <caption>To Import ALL Methods of Utils</caption>
- * import * as myModule from "/wimijs/index.mjs"
+ * import * as myModule from "./wimijs/index.mjs"
  *
  * // To Use:
  * myModule.wimijFunction()
@@ -51,7 +51,7 @@
  * @example <caption>Import ONLY the common functions desired.</caption>
  * import { wimijFunction } from '/wimijs/index.mjs'
  * // Or import and rename
- * import { wimijFunction as myFunctNow } from '/wimijs/index.mjs'
+ * import { wimijFunction as myFunctNow } from "./wimijs/index.mjs"
  *
  * @requires     module:lib/${nameOfFunction.mjs}
  *
