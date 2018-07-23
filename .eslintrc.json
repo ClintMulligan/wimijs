@@ -161,9 +161,9 @@
         "no-undefined": 0,
         "no-unused-vars": 0,
         "no-use-before-define": [
-            "error",
+            "warn",
             {
-                "functions": false,
+                "functions": true,
                 "classes": true,
                 "variables": true
             }
