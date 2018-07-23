@@ -70,12 +70,14 @@
  * traded for maintanibility.
  */
 
-/** @see {@link ./lib/curry.mjs} for Usage.  */
-export { curry as curry } from "./lib/curry.mjs"
-
 /** @see {@link ./lib/compareNumbers.mjs} for Usage.  */
 export { compareNumbers as compareNumbers } from "./lib/compareNumbers.mjs"
 
+/** @see {@link ./lib/curry.mjs} for Usage.  */
+export { curry as curry } from "./lib/curry.mjs"
+
+/** @see {@link ./lib/sumArray.mjs} for Usage.  */
+export { sumArray as sumArray } from "./lib/sumArray.mjs"
 
 // ERROR
 
