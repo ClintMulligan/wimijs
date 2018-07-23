@@ -57,6 +57,7 @@
  *
  * @param {string} filename Called with import ( filename )
  * @returns {function} From available modules in /lib
+ * @throws {ReferenceError} module not found, if file not found
  */
 
 // EXPORTS
@@ -69,11 +70,18 @@
  * traded for maintanibility.
  */
 
-/** @see {@link ./lib/curry.mjs} for further information.  */
+/** @see {@link ./lib/curry.mjs} for Usage.  */
 export { curry as curry } from "./lib/curry.mjs"
+
+/** @see {@link ./lib/compareNumbers.mjs} for Usage.  */
+export { compareNumbers as compareNumbers } from "./lib/compareNumbers.mjs"
+
 
 // ERROR
 
 // LOGGING
 
 // TESTING
+
+/** NOTES
+*/
